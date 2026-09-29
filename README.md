@@ -6,8 +6,33 @@ Lab exercises from my Python coursework, each with the source code and a screens
 
 | Lab | Topic | Folder |
 |---|---|---|
+| Lab 1 | Python basics: I/O, data types, variables, operators | [`Python_lab_1`](Python_lab_1) |
 | Lab 5 | Mutability, rebinding, and basic functions | [`Python_lab_5`](Python_lab_5) |
 | Lab 6 | Decorators and generators | [`Python_lab_6`](Python_lab_6) |
+
+## Lab 1: Python Basics — I/O, Data Types, Variables, Operators
+
+| Exercise | File |
+|---|---|
+| Print "Hello Python" in script and shell mode | [`Hello_Python.py`](Python_lab_1/Hello_Python.py) |
+| Display a variable's memory address using id() | [`Memory_Management.py`](Python_lab_1/Memory_Management.py) |
+| Convert input strings to integers and sum them | [`Type_conversion.py`](Python_lab_1/Type_conversion.py) |
+| Predict the output and type() of various values | [`Predict.py`](Python_lab_1/Predict.py) |
+| Print name, course, college, and city | [`introduction.py`](Python_lab_1/introduction.py) |
+| Print values using the `sep` parameter | [`Print_using_sep.py`](Python_lab_1/Print_using_sep.py) |
+| Print on the same line using the `end` parameter | [`using_end.py`](Python_lab_1/using_end.py) |
+| Create variables of different data types and print with type() | [`variables.py`](Python_lab_1/variables.py) |
+| Combine name, age, and city into one sentence | [`sentence.py`](Python_lab_1/sentence.py) |
+| Take name and age as input and display a welcome message | [`User_input.py`](Python_lab_1/User_input.py) |
+| Add, subtract, multiply, and divide two numbers | [`Two%20numbers.py`](Python_lab_1/Two%20numbers.py) |
+| Print a full student information block | [`information_program.py`](Python_lab_1/information_program.py) |
+| Demonstrate arithmetic, relational, logical, and bitwise operators | [`Operators.py`](Python_lab_1/Operators.py) |
+| Swap two numbers using a temporary variable | [`Swap.py`](Python_lab_1/Swap.py) |
+| Swap two numbers without a temporary variable | [`Swap_without_a_third_variable.py`](Python_lab_1/Swap_without_a_third_variable.py) |
+| Calculate Euclidean distance between two points in 2D | [`distance_in_2D.py`](Python_lab_1/distance_in_2D.py) |
+| Take three digits and sum the square of each | [`sum_of _squares.py`](Python_lab_1/sum_of%20_squares.py) |
+| Calculate simple interest | [`Simple%20interest.py`](Python_lab_1/Simple%20interest.py) |
+| Calculate the volume of a cylinder | [`Volume_of_a_cylinder.py`](Python_lab_1/Volume_of_a_cylinder.py) |
 
 ## Lab 5: Mutability, Rebinding, and Basic Functions
 
@@ -34,6 +59,7 @@ Lab exercises from my Python coursework, each with the source code and a screens
 ```
 Python-Labs/
 ├── README.md
+├── Python_lab_1/    # .py files + output screenshots (.png)
 ├── Python_lab_5/    # .py files + output screenshots (.png)
 └── Python_lab_6/    # .py files + output screenshots (.png)
 ```
