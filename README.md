@@ -43,6 +43,102 @@ Labs 2–4 contain their exercise solutions in the folder README files:
 | Calculate simple interest | [`Simple%20interest.py`](Python_lab_1/Simple%20interest.py) |
 | Calculate the volume of a cylinder | [`Volume_of_a_cylinder.py`](Python_lab_1/Volume_of_a_cylinder.py) |
 
+## Lab 2: Control Flow, Loops, Patterns, and Command-Line Arguments
+
+| Exercise | Solution |
+|---|---|
+| Maximum of three numbers using nested if-else | [Q1](Python_lab_2/README.md#q1) |
+| Even or odd | [Q2](Python_lab_2/README.md#q2) |
+| Leap year | [Q3](Python_lab_2/README.md#q3) |
+| Grade from marks using if-elif-else | [Q4](Python_lab_2/README.md#q4) |
+| Valid triangle from three angles | [Q5](Python_lab_2/README.md#q5) |
+| Profit or loss | [Q6](Python_lab_2/README.md#q6) |
+| Divisible by both 3 and 6 | [Q7](Python_lab_2/README.md#q7) |
+| Temperature and humidity: check that values are provided | [Q8](Python_lab_2/README.md#q8) |
+| In-hand salary (assumptions noted below) | [Q9](Python_lab_2/README.md#q9) |
+| Sum of N natural numbers | [Q10](Python_lab_2/README.md#q10) |
+| Multiplication table | [Q11](Python_lab_2/README.md#q11) |
+| Reverse digits using while | [Q12](Python_lab_2/README.md#q12) |
+| Factorial using for | [Q13](Python_lab_2/README.md#q13) |
+| Fibonacci up to n terms | [Q14](Python_lab_2/README.md#q14) |
+| Sum of digits | [Q15](Python_lab_2/README.md#q15) |
+| Armstrong number | [Q16](Python_lab_2/README.md#q16) |
+| Narcissist number (4-digit) | [Q17](Python_lab_2/README.md#q17) |
+| Right triangle | [Q18](Python_lab_2/README.md#q18) |
+| Inverted right triangle | [Q19](Python_lab_2/README.md#q19) |
+| Number triangle | [Q20](Python_lab_2/README.md#q20) |
+| Repeated number triangle | [Q21](Python_lab_2/README.md#q21) |
+| Alphabet triangle | [Q22](Python_lab_2/README.md#q22) |
+| Floyd's triangle | [Q23](Python_lab_2/README.md#q23) |
+| Inverted number triangle | [Q24](Python_lab_2/README.md#q24) |
+| Pyramid | [Q25](Python_lab_2/README.md#q25) |
+| Inverted pyramid | [Q26](Python_lab_2/README.md#q26) |
+| Diamond | [Q27](Python_lab_2/README.md#q27) |
+| Palindrome number pyramid | [Q28](Python_lab_2/README.md#q28) |
+| Pascal's triangle | [Q29](Python_lab_2/README.md#q29) |
+| break, continue and pass | [Q30](Python_lab_2/README.md#q30) |
+| Menu-driven conversion program | [Q31](Python_lab_2/README.md#q31) |
+| Sum of integer arguments using sys.argv | [Q32](Python_lab_2/README.md#q32) |
+
+## Lab 3: Strings, Collections, Arrays, and Matrices
+
+| Exercise | Solution |
+|---|---|
+| Count vowels and consonants | [Q1](Python_lab_3/README.md#q1) |
+| Reverse a string without slicing | [Q2](Python_lab_3/README.md#q2) |
+| Palindrome string | [Q3](Python_lab_3/README.md#q3) |
+| Remove all punctuation | [Q4](Python_lab_3/README.md#q4) |
+| Character frequency using a dictionary | [Q5](Python_lab_3/README.md#q5) |
+| Sum of all elements | [Q6](Python_lab_3/README.md#q6) |
+| Largest and smallest number | [Q7](Python_lab_3/README.md#q7) |
+| Remove duplicates from a list | [Q8](Python_lab_3/README.md#q8) |
+| Sort a list of tuples by the second element | [Q9](Python_lab_3/README.md#q9) |
+| Convert list to tuple and vice versa | [Q10](Python_lab_3/README.md#q10) |
+| Add, update and delete elements | [Q11](Python_lab_3/README.md#q11) |
+| Merge two dictionaries | [Q12](Python_lab_3/README.md#q12) |
+| Sort dictionary items by key and by value | [Q13](Python_lab_3/README.md#q13) |
+| Convert lists of keys and values into a dictionary | [Q14](Python_lab_3/README.md#q14) |
+| Create an ordered dictionary | [Q15](Python_lab_3/README.md#q15) |
+| Union, intersection and difference | [Q16](Python_lab_3/README.md#q16) |
+| Check whether two sets are disjoint | [Q17](Python_lab_3/README.md#q17) |
+| Array creation and operations using the array module | [Q18](Python_lab_3/README.md#q18) |
+| Matrix addition and multiplication using nested lists | [Q19](Python_lab_3/README.md#q19) |
+| Multi-dimensional arrays using numpy | [Q20](Python_lab_3/README.md#q20) |
+
+## Lab 4: Functions, Modules, Decorators, Generators, and Regular Expressions
+
+| Exercise | Solution |
+|---|---|
+| Factorial | [Q1](Python_lab_4/README.md#q1) |
+| Prime check | [Q2](Python_lab_4/README.md#q2) |
+| List: return sum and average | [Q3](Python_lab_4/README.md#q3) |
+| Rectangle area with default arguments | [Q4](Python_lab_4/README.md#q4) |
+| Demonstrate variable-length arguments | [Q5](Python_lab_4/README.md#q5) |
+| second_largest(*args) without set() | [Q6](Python_lab_4/README.md#q6) |
+| analyze_numbers(*args) | [Q7](Python_lab_4/README.md#q7) |
+| student_result(**kwargs) | [Q8](Python_lab_4/README.md#q8) |
+| employee_salary(*args, **kwargs) | [Q9](Python_lab_4/README.md#q9) |
+| generate_bill(*args, **kwargs) | [Q10](Python_lab_4/README.md#q10) |
+| Lambda for square and cube | [Q11](Python_lab_4/README.md#q11) |
+| map(), filter(), reduce() | [Q12](Python_lab_4/README.md#q12) |
+| Decorator that adds logging before a function call | [Q13](Python_lab_4/README.md#q13) |
+| Generator function for Fibonacci | [Q14](Python_lab_4/README.md#q14) |
+| math module: trigonometric and logarithmic values | [Q15](Python_lab_4/README.md#q15) |
+| Random password generator | [Q16](Python_lab_4/README.md#q16) |
+| System information using os and sys | [Q17](Python_lab_4/README.md#q17) |
+| Own module for arithmetic operations | [Q18](Python_lab_4/README.md#q18) |
+| second_largest.py: third largest unique number without set() | [Q19](Python_lab_4/README.md#q19) |
+| analyze_number.py | [Q20](Python_lab_4/README.md#q20) |
+| student_result.py | [Q21](Python_lab_4/README.md#q21) |
+| employee_salary.py | [Q22](Python_lab_4/README.md#q22) |
+| circle_area.py | [Q23](Python_lab_4/README.md#q23) |
+| rectangle_area.py | [Q24](Python_lab_4/README.md#q24) |
+| Validate an email address | [Q25](Python_lab_4/README.md#q25) |
+| Extract all numbers from text | [Q26](Python_lab_4/README.md#q26) |
+| Replace all whitespace with a single space | [Q27](Python_lab_4/README.md#q27) |
+| Words starting with a capital letter | [Q28](Python_lab_4/README.md#q28) |
+| Validate phone numbers (10-digit Indian mobile, optional +91) | [Q29](Python_lab_4/README.md#q29) |
+
 ## Lab 5: Mutability, Rebinding, and Basic Functions
 
 | Exercise | File |

@@ -2,7 +2,8 @@
 
 ## Functions
 
-**Q1. Factorial.**
+<a id="q1"></a>
+### Q1. Factorial.
 ```python
 def factorial(n):
     f = 1
@@ -13,7 +14,8 @@ def factorial(n):
 print(factorial(5))     # 120
 ```
 
-**Q2. Prime check.**
+<a id="q2"></a>
+### Q2. Prime check.
 ```python
 def is_prime(n):
     if n < 2:
@@ -26,7 +28,8 @@ def is_prime(n):
 print(is_prime(17))     # True
 ```
 
-**Q3. List: return sum and average.**
+<a id="q3"></a>
+### Q3. List: return sum and average.
 ```python
 def sum_avg(lst):
     total = sum(lst)
@@ -36,7 +39,8 @@ s, a = sum_avg([10, 20, 30, 40])
 print("Sum =", s, "Average =", a)
 ```
 
-**Q4. Rectangle area with default arguments.**
+<a id="q4"></a>
+### Q4. Rectangle area with default arguments.
 ```python
 def rect_area(length=5, breadth=3):
     return length * breadth
@@ -48,7 +52,8 @@ print(rect_area(breadth=2)) # 10
 
 ## Variable-Length Arguments
 
-**Q5. Demonstrate variable-length arguments.**
+<a id="q5"></a>
+### Q5. Demonstrate variable-length arguments.
 ```python
 def show(*args, **kwargs):
     print("Positional:", args)
@@ -57,7 +62,8 @@ def show(*args, **kwargs):
 show(1, 2, 3, name="Neha", city="Lucknow")
 ```
 
-**Q6. second_largest(*args) without set().**
+<a id="q6"></a>
+### Q6. second_largest(*args) without set().
 ```python
 def second_largest(*args):
     unique = []
@@ -78,7 +84,8 @@ def second_largest(*args):
 print(second_largest(10, 40, 40, 30, 20))   # 30
 ```
 
-**Q7. analyze_numbers(*args).**
+<a id="q7"></a>
+### Q7. analyze_numbers(*args).
 ```python
 def analyze_numbers(*args):
     evens = [x for x in args if x % 2 == 0]
@@ -93,7 +100,8 @@ def analyze_numbers(*args):
 analyze_numbers(1, 2, 3, 4, 5, 6, 7)
 ```
 
-**Q8. student_result(**kwargs).**
+<a id="q8"></a>
+### Q8. student_result(**kwargs).
 ```python
 def student_result(**kwargs):
     total = sum(kwargs.values())
@@ -108,7 +116,8 @@ def student_result(**kwargs):
 student_result(Maths=78, Physics=65, Chemistry=39, English=82)
 ```
 
-**Q9. employee_salary(*args, **kwargs).**
+<a id="q9"></a>
+### Q9. employee_salary(*args, **kwargs).
 ```python
 def employee_salary(*args, **kwargs):
     # args = salaries, kwargs = name=salary
@@ -125,7 +134,8 @@ employee_salary(30000, 45000, 60000, 25000,
                 Amit=30000, Neha=45000, Rahul=60000, Priya=25000)
 ```
 
-**Q10. generate_bill(*args, **kwargs).**
+<a id="q10"></a>
+### Q10. generate_bill(*args, **kwargs).
 ```python
 def generate_bill(*args, **kwargs):
     # args = item prices, kwargs = item=quantity (same order as prices)
@@ -149,14 +159,16 @@ generate_bill(1200, 800, 500, Laptop_bag=2, Mouse=3, Pen_drive=4)
 
 ## Lambda, map, filter, reduce
 
-**Q11. Lambda for square and cube.**
+<a id="q11"></a>
+### Q11. Lambda for square and cube.
 ```python
 square = lambda x: x ** 2
 cube = lambda x: x ** 3
 print(square(4), cube(3))      # 16 27
 ```
 
-**Q12. map(), filter(), reduce().**
+<a id="q12"></a>
+### Q12. map(), filter(), reduce().
 ```python
 from functools import reduce
 nums = [1, 2, 3, 4, 5, 6]
@@ -172,7 +184,8 @@ print("Sum:", total)
 
 ## Decorators and Generators
 
-**Q13. Decorator that adds logging before a function call.**
+<a id="q13"></a>
+### Q13. Decorator that adds logging before a function call.
 ```python
 def log(func):
     def wrapper(*args, **kwargs):
@@ -187,7 +200,8 @@ def add(a, b):
 print(add(3, 4))
 ```
 
-**Q14. Generator function for Fibonacci.**
+<a id="q14"></a>
+### Q14. Generator function for Fibonacci.
 ```python
 def fibonacci(n):
     a, b = 0, 1
@@ -201,7 +215,8 @@ for x in fibonacci(10):
 
 ## Standard Library Modules
 
-**Q15. math module: trigonometric and logarithmic values.**
+<a id="q15"></a>
+### Q15. math module: trigonometric and logarithmic values.
 ```python
 import math
 angle = math.radians(30)
@@ -213,7 +228,8 @@ print("log10(100):", math.log10(100))
 print("log2(8):", math.log2(8))
 ```
 
-**Q16. Random password generator.**
+<a id="q16"></a>
+### Q16. Random password generator.
 ```python
 import random
 import string
@@ -225,7 +241,8 @@ print("Generated password:", password)
 ```
 *For real security, use the `secrets` module instead of `random`.*
 
-**Q17. System information using os and sys.**
+<a id="q17"></a>
+### Q17. System information using os and sys.
 ```python
 import os
 import sys
@@ -242,7 +259,8 @@ print("Files here:", os.listdir("."))
 
 ## Custom Modules
 
-**Q18. Own module for arithmetic operations.**
+<a id="q18"></a>
+### Q18. Own module for arithmetic operations.
 
 `arith.py`
 ```python
@@ -257,7 +275,8 @@ import arith
 print(arith.add(10, 5), arith.sub(10, 5), arith.mul(10, 5), arith.div(10, 5))
 ```
 
-**Q19. second_largest.py: third largest unique number without set().**
+<a id="q19"></a>
+### Q19. second_largest.py: third largest unique number without set().
 
 `second_largest.py`
 ```python
@@ -293,7 +312,8 @@ else:
     print("Third largest unique number:", result)
 ```
 
-**Q20. analyze_number.py**
+<a id="q20"></a>
+### Q20. analyze_number.py
 
 `analyze_number.py`
 ```python
@@ -329,7 +349,8 @@ print("Average of even:", r["avg_even"])
 print("Average of odd:", r["avg_odd"])
 ```
 
-**Q21. student_result.py**
+<a id="q21"></a>
+### Q21. student_result.py
 
 `student_result.py`
 ```python
@@ -360,7 +381,8 @@ print("Highest scoring subject:", top)
 print("Result:", "Pass" if passed else "Fail")
 ```
 
-**Q22. employee_salary.py**
+<a id="q22"></a>
+### Q22. employee_salary.py
 
 `employee_salary.py`
 ```python
@@ -398,7 +420,8 @@ print("Lowest earners:", r["low_names"])
 print("Above average:", r["above_avg"])
 ```
 
-**Q23. circle_area.py**
+<a id="q23"></a>
+### Q23. circle_area.py
 
 `circle_area.py`
 ```python
@@ -422,7 +445,8 @@ print("Area:", round(ca.area(r), 2))
 print("Circumference:", round(ca.circumference(r), 2))
 ```
 
-**Q24. rectangle_area.py**
+<a id="q24"></a>
+### Q24. rectangle_area.py
 
 `rectangle_area.py`
 ```python
@@ -444,7 +468,8 @@ print("Perimeter:", ra.perimeter(l, b))
 
 ## Regular Expressions
 
-**Q25. Validate an email address.**
+<a id="q25"></a>
+### Q25. Validate an email address.
 ```python
 import re
 email = input("Enter email: ")
@@ -452,28 +477,32 @@ pattern = r"^[\w.+-]+@[A-Za-z0-9-]+(\.[A-Za-z0-9-]+)*\.[A-Za-z]{2,}$"
 print("Valid email" if re.match(pattern, email) else "Invalid email")
 ```
 
-**Q26. Extract all numbers from text.**
+<a id="q26"></a>
+### Q26. Extract all numbers from text.
 ```python
 import re
 text = "I have 3 apples, 12 oranges and 4.5 kg of grapes."
 print(re.findall(r"\d+\.?\d*", text))    # ['3', '12', '4.5']
 ```
 
-**Q27. Replace all whitespace with a single space.**
+<a id="q27"></a>
+### Q27. Replace all whitespace with a single space.
 ```python
 import re
 s = "Python    is   \t  fun\nand   easy"
 print(re.sub(r"\s+", " ", s))
 ```
 
-**Q28. Words starting with a capital letter.**
+<a id="q28"></a>
+### Q28. Words starting with a capital letter.
 ```python
 import re
 text = "Neha and Rahul live in Lucknow near the Gomti river."
 print(re.findall(r"\b[A-Z][a-zA-Z]*\b", text))
 ```
 
-**Q29. Validate phone numbers (10-digit Indian mobile, optional +91).**
+<a id="q29"></a>
+### Q29. Validate phone numbers (10-digit Indian mobile, optional +91).
 ```python
 import re
 phone = input("Enter phone number: ")

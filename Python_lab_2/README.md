@@ -2,7 +2,8 @@
 
 ## Conditional Statements
 
-**Q1. Maximum of three numbers using nested if-else.**
+<a id="q1"></a>
+### Q1. Maximum of three numbers using nested if-else.
 ```python
 a = int(input("a: "))
 b = int(input("b: "))
@@ -19,7 +20,8 @@ else:
         print("Max =", c)
 ```
 
-**Q2. Even or odd.**
+<a id="q2"></a>
+### Q2. Even or odd.
 ```python
 n = int(input("Enter number: "))
 if n % 2 == 0:
@@ -28,7 +30,8 @@ else:
     print("Odd")
 ```
 
-**Q3. Leap year.**
+<a id="q3"></a>
+### Q3. Leap year.
 ```python
 y = int(input("Enter year: "))
 if (y % 4 == 0 and y % 100 != 0) or (y % 400 == 0):
@@ -37,7 +40,8 @@ else:
     print("Not a leap year")
 ```
 
-**Q4. Grade from marks using if-elif-else.**
+<a id="q4"></a>
+### Q4. Grade from marks using if-elif-else.
 ```python
 m = float(input("Enter marks (0-100): "))
 if m >= 90:
@@ -54,7 +58,8 @@ else:
     print("Fail")
 ```
 
-**Q5. Valid triangle from three angles.**
+<a id="q5"></a>
+### Q5. Valid triangle from three angles.
 ```python
 a = float(input("Angle 1: "))
 b = float(input("Angle 2: "))
@@ -65,7 +70,8 @@ else:
     print("Not a valid triangle")
 ```
 
-**Q6. Profit or loss.**
+<a id="q6"></a>
+### Q6. Profit or loss.
 ```python
 cp = float(input("Cost price: "))
 sp = float(input("Selling price: "))
@@ -77,7 +83,8 @@ else:
     print("No profit, no loss")
 ```
 
-**Q7. Divisible by both 3 and 6.**
+<a id="q7"></a>
+### Q7. Divisible by both 3 and 6.
 ```python
 n = int(input("Enter number: "))
 if n % 3 == 0 and n % 6 == 0:
@@ -86,7 +93,8 @@ else:
     print("Not divisible by both")
 ```
 
-**Q8. Temperature and humidity: check that values are provided.**
+<a id="q8"></a>
+### Q8. Temperature and humidity: check that values are provided.
 ```python
 temp = input("Enter temperature: ").strip()
 hum = input("Enter humidity: ").strip()
@@ -96,7 +104,8 @@ else:
     print("Temperature:", temp, " Humidity:", hum)
 ```
 
-**Q9. In-hand salary (assumptions noted below).**
+<a id="q9"></a>
+### Q9. In-hand salary (assumptions noted below).
 ```python
 salary = float(input("Enter annual salary in lakh: "))
 
@@ -123,7 +132,8 @@ else:
 
 ## Loops
 
-**Q10. Sum of N natural numbers.**
+<a id="q10"></a>
+### Q10. Sum of N natural numbers.
 ```python
 n = int(input("N: "))
 total = 0
@@ -132,14 +142,16 @@ for i in range(1, n + 1):
 print("Sum =", total)
 ```
 
-**Q11. Multiplication table.**
+<a id="q11"></a>
+### Q11. Multiplication table.
 ```python
 n = int(input("Enter number: "))
 for i in range(1, 11):
     print(f"{n} x {i} = {n * i}")
 ```
 
-**Q12. Reverse digits using while.**
+<a id="q12"></a>
+### Q12. Reverse digits using while.
 ```python
 n = int(input("Enter number: "))
 rev = 0
@@ -149,7 +161,8 @@ while n > 0:
 print("Reversed =", rev)
 ```
 
-**Q13. Factorial using for.**
+<a id="q13"></a>
+### Q13. Factorial using for.
 ```python
 n = int(input("Enter number: "))
 f = 1
@@ -158,7 +171,8 @@ for i in range(1, n + 1):
 print("Factorial =", f)
 ```
 
-**Q14. Fibonacci up to n terms.**
+<a id="q14"></a>
+### Q14. Fibonacci up to n terms.
 ```python
 n = int(input("Terms: "))
 a, b = 0, 1
@@ -167,7 +181,8 @@ for _ in range(n):
     a, b = b, a + b
 ```
 
-**Q15. Sum of digits.**
+<a id="q15"></a>
+### Q15. Sum of digits.
 ```python
 n = int(input("Enter number: "))
 s = 0
@@ -177,7 +192,8 @@ while n > 0:
 print("Sum of digits =", s)
 ```
 
-**Q16. Armstrong number.**
+<a id="q16"></a>
+### Q16. Armstrong number.
 ```python
 n = int(input("Enter number: "))
 digits = len(str(n))
@@ -188,7 +204,8 @@ while temp > 0:
 print("Armstrong" if total == n else "Not Armstrong")
 ```
 
-**Q17. Narcissist number (4-digit).**
+<a id="q17"></a>
+### Q17. Narcissist number (4-digit).
 ```python
 n = int(input("Enter a 4-digit number: "))
 if 1000 <= n <= 9999:
@@ -202,21 +219,24 @@ else:
 
 Each program uses `N = 5`.
 
-**Q18. Right triangle**
+<a id="q18"></a>
+### Q18. Right triangle
 ```python
 N = 5
 for i in range(1, N + 1):
     print("* " * i)
 ```
 
-**Q19. Inverted right triangle**
+<a id="q19"></a>
+### Q19. Inverted right triangle
 ```python
 N = 5
 for i in range(N, 0, -1):
     print("* " * i)
 ```
 
-**Q20. Number triangle**
+<a id="q20"></a>
+### Q20. Number triangle
 ```python
 N = 5
 for i in range(1, N + 1):
@@ -225,7 +245,8 @@ for i in range(1, N + 1):
     print()
 ```
 
-**Q21. Repeated number triangle**
+<a id="q21"></a>
+### Q21. Repeated number triangle
 ```python
 N = 5
 for i in range(1, N + 1):
@@ -234,7 +255,8 @@ for i in range(1, N + 1):
     print()
 ```
 
-**Q22. Alphabet triangle**
+<a id="q22"></a>
+### Q22. Alphabet triangle
 ```python
 N = 5
 for i in range(1, N + 1):
@@ -243,7 +265,8 @@ for i in range(1, N + 1):
     print()
 ```
 
-**Q23. Floyd's triangle**
+<a id="q23"></a>
+### Q23. Floyd's triangle
 ```python
 N = 5
 num = 1
@@ -254,7 +277,8 @@ for i in range(1, N + 1):
     print()
 ```
 
-**Q24. Inverted number triangle**
+<a id="q24"></a>
+### Q24. Inverted number triangle
 ```python
 N = 5
 for i in range(N, 0, -1):
@@ -263,21 +287,24 @@ for i in range(N, 0, -1):
     print()
 ```
 
-**Q25. Pyramid**
+<a id="q25"></a>
+### Q25. Pyramid
 ```python
 N = 5
 for i in range(1, N + 1):
     print(" " * (N - i) + "*" * (2 * i - 1))
 ```
 
-**Q26. Inverted pyramid**
+<a id="q26"></a>
+### Q26. Inverted pyramid
 ```python
 N = 5
 for i in range(N, 0, -1):
     print(" " * (N - i) + "*" * (2 * i - 1))
 ```
 
-**Q27. Diamond**
+<a id="q27"></a>
+### Q27. Diamond
 ```python
 N = 5
 for i in range(1, N + 1):
@@ -286,7 +313,8 @@ for i in range(N - 1, 0, -1):
     print(" " * (N - i) + "*" * (2 * i - 1))
 ```
 
-**Q28. Palindrome number pyramid**
+<a id="q28"></a>
+### Q28. Palindrome number pyramid
 ```python
 N = 5
 for i in range(1, N + 1):
@@ -298,7 +326,8 @@ for i in range(1, N + 1):
     print()
 ```
 
-**Q29. Pascal's triangle**
+<a id="q29"></a>
+### Q29. Pascal's triangle
 ```python
 N = 5
 for i in range(N):
@@ -312,7 +341,8 @@ for i in range(N):
 
 ## Control Structures
 
-**Q30. break, continue and pass.**
+<a id="q30"></a>
+### Q30. break, continue and pass.
 ```python
 for i in range(1, 11):
     if i == 3:
@@ -325,7 +355,8 @@ for i in range(1, 11):
 # Output: 1 2 4 5 6 7
 ```
 
-**Q31. Menu-driven conversion program.**
+<a id="q31"></a>
+### Q31. Menu-driven conversion program.
 ```python
 while True:
     print("\n1. cm to inches")
@@ -353,7 +384,8 @@ while True:
 
 ## Command-Line Arguments
 
-**Q32. Sum of integer arguments using sys.argv.**
+<a id="q32"></a>
+### Q32. Sum of integer arguments using sys.argv.
 ```python
 import sys
 total = 0
