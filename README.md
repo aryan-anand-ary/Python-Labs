@@ -7,8 +7,17 @@ Lab exercises from my Python coursework, each with the source code and a screens
 | Lab | Topic | Folder |
 |---|---|---|
 | Lab 1 | Python basics: I/O, data types, variables, operators | [`Python_lab_1`](Python_lab_1) |
+| Lab 2 | Control flow, loops, patterns, and command-line arguments | [`Python_lab_2`](Python_lab_2) |
+| Lab 3 | Strings, collections, arrays, and matrices | [`Python_lab_3`](Python_lab_3) |
+| Lab 4 | Functions, modules, decorators, generators, and regular expressions | [`Python_lab_4`](Python_lab_4) |
 | Lab 5 | Mutability, rebinding, and basic functions | [`Python_lab_5`](Python_lab_5) |
 | Lab 6 | Decorators and generators | [`Python_lab_6`](Python_lab_6) |
+
+Labs 2–4 contain their exercise solutions in the folder README files:
+
+- [Lab 2 solutions](Python_lab_2/README.md)
+- [Lab 3 solutions](Python_lab_3/README.md)
+- [Lab 4 solutions](Python_lab_4/README.md)
 
 ## Lab 1: Python Basics — I/O, Data Types, Variables, Operators
 
@@ -60,6 +69,9 @@ Lab exercises from my Python coursework, each with the source code and a screens
 Python-Labs/
 ├── README.md
 ├── Python_lab_1/    # .py files + output screenshots (.png)
+├── Python_lab_2/    # control flow and loops solutions
+├── Python_lab_3/    # data structures solutions
+├── Python_lab_4/    # functions, modules, and regular expressions solutions
 ├── Python_lab_5/    # .py files + output screenshots (.png)
 └── Python_lab_6/    # .py files + output screenshots (.png)
 ```
